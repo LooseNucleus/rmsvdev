@@ -1,0 +1,73 @@
+// Some basic padding for all wrappers
+.wrapper {
+  padding:$grid-gutter-width 0;
+  margin-top: $navbar-height;
+}
+
+// Reset hero wrapper padding to 0
+#wrapper-hero, #wrapper-static-hero {
+  padding:0px!important;
+}
+
+// Adding basic Wordpress classes to pass the Wordpress.org tests
+.sticky, .gallery-caption, .bypostauthor {
+font-size:inherit;
+}
+
+// Separate sticky wrapper from main content
+.wrapper#wrapper-sticky {
+	border-bottom:1px solid $gray-lighter;
+}
+
+// Necessary WP classes
+.wp-caption {
+	font-size: inherit;
+}
+
+.wp-caption-text {
+	font-size: inherit;
+}
+
+.screen-reader-text {
+	font-size: inherit;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	margin:0px auto;
+}
+
+/* New WP Image Alignment Requirements */
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+//Post design
+.entry-footer span {
+	padding-right:10px;
+}
+
+//Limit featured image size to 100%
+img.wp-post-image, article img, figure {
+	max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+// Skip to content link
+a.skip-link{
+z-index: 1000;
+margin-bottom: -20px;
+position: relative;
+display: block;
+}

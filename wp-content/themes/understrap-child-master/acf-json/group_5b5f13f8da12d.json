@@ -1,0 +1,205 @@
+{
+    "key": "group_5b5f13f8da12d",
+    "title": "Notification Carousel",
+    "fields": [
+        {
+            "key": "field_5b5f1403009bf",
+            "label": "Notification Carousel",
+            "name": "notification_carousel",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Notification",
+            "sub_fields": [
+                {
+                    "key": "field_5b5f143c009c1",
+                    "label": "Notification Type",
+                    "name": "notification_type",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5b5f886816645",
+                    "label": "Notification Type Text",
+                    "name": "notification_type_text",
+                    "type": "textarea",
+                    "instructions": "If this notification fits nicely into a category, like Blog Post, Product, or Classes, you might mention there are other similar things like we do for the blog post. If you use it, please make the text below shorter to make it look best.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5b5f1425009c0",
+                    "label": "Notification Headline",
+                    "name": "notification_headline",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5b5f1452009c2",
+                    "label": "Notification Text",
+                    "name": "notification_text",
+                    "type": "textarea",
+                    "instructions": "This will look best if you have between 200 and 400 characters (which is the maximum). Anything smaller will make stuff jump around a bit much.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": 400,
+                    "rows": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5c83bb3fad4c1",
+                    "label": "New Notification Image (Use This One Now!)",
+                    "name": "new_notification_image",
+                    "type": "image_aspect_ratio_crop",
+                    "instructions": "Please make sure to crop this image - 780 x 568 minimum size and aspect ratio enforced.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "aspect_ratio_width": 780,
+                    "aspect_ratio_height": 568,
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": 780,
+                    "min_height": 568,
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5b5f146a009c3",
+                    "label": "Notification Image",
+                    "name": "notification_image",
+                    "type": "image_crop",
+                    "instructions": "Please make sure to crop this image!",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "blog_image",
+                    "width": "",
+                    "height": "",
+                    "preview_size": "medium",
+                    "force_crop": "yes",
+                    "save_in_media_library": "yes",
+                    "retina_mode": "no",
+                    "save_format": "object",
+                    "library": "all"
+                },
+                {
+                    "key": "field_5b5f14ac009c4",
+                    "label": "Notification Button",
+                    "name": "notification_button",
+                    "type": "text",
+                    "instructions": "What should the button say?",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Learn More Now",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5b5f14cc009c5",
+                    "label": "Notification Link",
+                    "name": "notification_link",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/page-home.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1552138216
+}

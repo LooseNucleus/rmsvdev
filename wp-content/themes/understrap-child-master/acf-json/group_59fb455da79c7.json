@@ -1,0 +1,43 @@
+{
+    "key": "group_59fb455da79c7",
+    "title": "Venue Links",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "tribe_venue"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_59fb457b3f71f",
+            "label": "Venue Links",
+            "name": "venue_links",
+            "type": "wysiwyg",
+            "instructions": "This short description will appear next to the home page maps, should be short, and should include a link to this very same page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Please check out this locations upcoming sewing classes.",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 1
+        }
+    ],
+    "modified": 1534119284
+}

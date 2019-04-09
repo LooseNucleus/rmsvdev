@@ -1,0 +1,64 @@
+
+/* ORDER PAGE */
+
+	/* MAIN CCOO FORM */
+	.cxccoo-create-user-holder { margin-top: 8px; }
+	.cxccoo-create-user-holder .cxccoo-toggle-create-user {display: none;margin-bottom: 8px;padding: 12px 20px 12px;border-radius: 0px;background: #FDFDFD;box-sizing: border-box;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.023);border: 1px solid rgba(0, 0, 0, 0.1);position: relative;}
+	.form-table .cxccoo-create-user-holder p,
+	.cxccoo-create-user-holder p {margin: 0.5em 0;}
+	.cxccoo-create-user-holder label {padding: 0 0 3px;font-size: 13px;display: block;color: #777;}
+	.cxccoo-create-user-holder input[type=text],
+	.cxccoo-create-user-holder select { width: 100%; }
+
+	.cxccoo-create-user-holder .cxccoo-settings-icon {position: absolute;right: 6px;top: 6px;color: #919191;font-size: 15px;line-height: 19px;border-radius: 100px;width: 20px;transition: .2s;}
+	.cxccoo-create-user-holder .cxccoo-settings-icon:hover {color: #5d5d5d;}
+
+	#order_data .order_data_column .form-field p.create-customer-checkbox-row, .form-table p.create-customer-checkbox-row {margin: 1.2em 0;}
+	#order_data .order_data_column .form-field .create-customer-checkbox-row label,
+	.create-customer-checkbox-row label{ display: inline-block; padding: 0; margin: 0 0 0 0px; }
+	
+	.user-capability-restricted{ color: #BBB; font-style: italic; }
+	.required-field { color: red; }
+	.cxccoo-create-user-holder input[type=checkbox] { width: auto !important; }
+	
+	p.create-customer-buttons-row { margin-top: 0; }
+	.create-customer-buttons-row .button { margin: .5em 0; }
+	
+	.button.cxccoo-create-user-form {width: 100%;margin-top: -5px;}
+	.button.cxccoo-submit-user-form-cancel {}
+	.button.cxccoo-submit-user-form {float: right;}
+	.button.cxccoo-create-user-form .cxccoo-create-user-icon {width: 9px;display: inline-block;background: url(../images/create-user-button-icon.png) 50% 55% no-repeat;margin: 0 0 0 1px;opacity: 0.5;}
+	
+	/* SAVE ADDRESS TO USER */
+	.cxccoo-order-save-actions{color: #777;font-weight: normal;display: none;text-align: right;float: right;font-size: 13px;line-height: 13px;}
+	.cxccoo-order-save-actions.cxccoo-order-save-actions-spacing { margin-right: 9px; }
+	.cxccoo-save-billing-address {}
+	.cxccoo-save-shipping-address {}
+	.cxccoo-order-save-actions input[type=checkbox] {margin: -2px 0 0 2px;}
+
+	
+	/* WOOCOMMERCE BOOKING  PLUGIN */
+	.wc_booking_page_create_booking .button.cxccoo-create-user-form {max-width: 350px;box-sizing: border-box;}
+	.wc_booking_page_create_booking .cxccoo-toggle-create-user {max-width: 350px;}
+
+
+/* SETTINGS PAGE */
+.cxccoo-wrap-settings{ max-width: 950px; padding: 30px 15px 30px 0; }
+.cxccoo-wrap-settings > p {color: #6D6D6D;font-style: italic;font-size: 15px;margin-top: 0;}
+
+.cxccoo-wrap-settings .cxccoo-back { color: #0074AA; font-size: 13px; float: left;margin: 0 15px 0 0;background: #E0E0E0; text-decoration: none; border-radius: 2px; padding: 4px 9px 3px 6px; transition: .3s; line-height: 19px;}
+.cxccoo-wrap-settings .cxccoo-back .dashicons { margin: 0 0 -6px; bottom: 2px; font-size: 18px; transition: .3s !important; position: relative; line-height: 22px; max-width: 10px; display: inline-block; left: -5px; }
+
+.cxccoo-wrap-settings .cxccoo-back:hover { background: #D2D2D2; color: #007DB7; }
+.cxccoo-wrap-settings p.submit { margin: 0; padding: 5px 0 15px; }
+
+.cxccoo-wrap-settings h1 { font-size: 23px !important;padding: 0 15px 1 0 !important; line-height: 27px !important; color: #464646; clear: none !important; margin: 0;}
+.cxccoo-wrap-settings h1 .dashicons { line-height:inherit; font-size: 20px; position: relative; bottom: -2px; margin: 0 3px; color: #989898; }
+
+.cxccoo-wrap-settings h3, /* Backwards Compat */
+.cxccoo-wrap-settings h2 {padding: 25px 0 12px 0;margin: 25px 0 0;border-top: 1px solid rgba(0, 0, 0, 0.1);/* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */font-size: 16px;font-style: normal;}
+.cxccoo-wrap-settings table.form-table .description,
+.cxccoo-wrap-settings table.form-table td.forminp-textarea p { display: block; margin-top: 6px; margin-bottom: 6px; color: #6D6D6D; font-style: italic; font-size: 14px; }
+.cxccoo-wrap-settings table.form-table .forminp-checkbox .description{ margin-top: 0; }
+.cxccoo-wrap-settings table.form-table td.forminp-textarea p { margin-bottom: 12px; }
+.cxccoo-wrap-settings table.form-table td.forminp-textarea textarea { width: 100%; }

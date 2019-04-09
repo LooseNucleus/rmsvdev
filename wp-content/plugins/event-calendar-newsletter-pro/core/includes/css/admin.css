@@ -1,0 +1,22 @@
+#ecn-admin .spinner { float: none; }
+#ecn-admin .nav-tab { cursor: pointer; }
+#ecn-admin #select_html_results { margin-top: 20px; }
+#ecn-admin #results { padding-top: 20px; }
+#copy_paste_info { padding: 20px; background-color: white; }
+#ecn-admin .leftcol { width: 70%; float: left; }
+#ecn-admin .rightcol { width: 25%; float: right; }
+#ecn-admin .clearfix { clear: both; }
+#no-supported-calendars p { font-size: 16px; }
+#output_columns { clear: left; }
+#save_results_box .upgrade {
+    background-color: #f77530;
+    border: 1px solid #e15409;
+    box-shadow: 1px 0 #e15409;
+    -webkit-box-shadow: 1px 0 #e15409;
+    text-shadow: 0 -1px 1px #e15409, 1px 0 1px #e15409, 0 1px 1px #e15409, -1px 0 1px #e15409;
+}
+#ecn-pro-description { padding: 10px; border: 2px solid #f77530; background: white; }
+#ecn-pro-description h3.additional-options { padding-top: 30px; }
+#ecn-pro-description .ecs-button { text-decoration: none; padding: 6px 12px; background-color: #f77530; color: white; display: inline-block; text-align: center; }
+#ecn-pro-designs { text-align:center; }
+#ecn-pro-designs a { padding-bottom: 20px; }

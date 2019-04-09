@@ -1,0 +1,43 @@
+{
+    "key": "group_5b636594e0507",
+    "title": "Location Video",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "tribe_venue"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5b63659e7194f",
+            "label": "Location Video",
+            "name": "location_video",
+            "type": "text",
+            "instructions": "Enter only the video ID from Youtube, which is the last part. For instance: https:\/\/www.youtube.com\/watch?v=Y0oYzadvpmk will become just Y0oYzadvpmk",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Y0oYzadvpmk",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "modified": 1534119283
+}

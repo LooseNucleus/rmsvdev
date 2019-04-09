@@ -1,0 +1,122 @@
+{
+    "key": "group_5b2982eb180b8",
+    "title": "Image Icons",
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/page-full-width-landing.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_5b2982fb0fc4a",
+            "label": "Image Icons",
+            "name": "image_icons",
+            "type": "repeater",
+            "instructions": "Add in at least 4 images to this. They will automatically loop to the next row after 4.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5b29832f0fc4b",
+                    "label": "Image Icon",
+                    "name": "image_icon",
+                    "type": "image_crop",
+                    "instructions": "This will be a square-ish image on the site, so plan accordingly.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "crop_type": "hard",
+                    "target_size": "medium",
+                    "width": "",
+                    "height": "",
+                    "preview_size": "medium",
+                    "force_crop": "no",
+                    "save_in_media_library": "yes",
+                    "retina_mode": "no",
+                    "save_format": "url",
+                    "library": "all"
+                },
+                {
+                    "key": "field_5b2984090fc4c",
+                    "label": "Image Icon Link",
+                    "name": "image_icon_link",
+                    "type": "link",
+                    "instructions": "What page should this image link to?",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url"
+                },
+                {
+                    "key": "field_5b33c063a7e32",
+                    "label": "Image Icon Title",
+                    "name": "image_icon_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Image Icon Title",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5b33c0f7a7e33",
+                    "label": "Image Icon Teaser",
+                    "name": "image_icon_teaser",
+                    "type": "text",
+                    "instructions": "A short description of what they'll learn more about.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "A short description of what they'll learn more about.",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        }
+    ],
+    "modified": 1534784671
+}

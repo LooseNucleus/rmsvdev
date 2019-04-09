@@ -1,0 +1,1340 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+body {
+	/*
+	background: url('../assets/img/fabric_plaid.png') top left repeat;
+	*/
+	background-color: #fff;
+}
+
+.page-logo {
+	margin-top: 50px;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-btn {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.large-text {
+	font-size: $font-size-large;
+}
+
+#hero {
+	background: url('../assets/img/bernina-quilt-design-inspiration.jpg') 50% 0 no-repeat;
+	background-size: cover;
+	min-height: 600px;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+@media screen and (min-width: 768px) {
+	#hero {
+		background: url('../assets/img/bernina-quilt-design-inspiration.jpg') 50% 0 no-repeat fixed;
+		background-size: cover;
+		min-height: 600px;
+		position: relative;
+		display: table;
+		width: 100%;
+		padding: 40px 0;
+		color: white;
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizelegibility;
+	}
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $brand-primary;
+    opacity: 0.4
+}
+
+#hero article {
+  width: 100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#hero .hero-text {
+	margin-top: 20px;
+}
+
+#feature-blocks {
+	margin: 30px 0 30px;
+	text-align: center;
+}
+
+#feature-blocks .price {
+	display: inline-block;
+	width: 30%;
+  min-height: 200px;
+	margin: 0 2% 0 0;
+	background: $brand-cta-secondary;
+	padding: 40px 20px 40px;
+	position: relative;
+	vertical-align: top;
+	border-radius: $border-radius-base;
+}
+
+#feature-blocks .price.active {
+	background: $brand-cta;
+}
+
+
+/* #feature-blocks .price span {
+	background: #101010;
+	display: block;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 2$border-radius-base;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	margin-left: -35px;
+}
+
+*/
+
+#feature-blocks h4 {
+	margin: 0 0 10px;
+	min-height: 75px;
+}
+
+#feature-blocks h4 small {
+	color: white;
+	font-weight: bold;
+	margin: 5px 0 25px;
+	display: block;
+}
+
+.modal-title {
+	color: $text-color;
+}
+
+.modal-body {
+	color: $text-color;
+}
+
+.section-header {
+	margin-top: 70px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.section-header h2 {
+	text-align: center;
+}
+
+// Move Fixed Navbar top down if admin bar showing
+.admin-bar .navbar-fixed-top {
+	top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+	.admin-bar .navbar-fixed-top {
+		top: 46px;
+	}
+}
+
+/* MEDIA QUERIES FOR HEADER AND FIRST SECTION*/
+
+@media screen and (max-width: 768px) {
+	#feature-blocks .price {
+		width: 100%;
+	}
+	#feature-blocks .price.active {
+		width: 100%;
+	}
+}
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+	.navbar-brand {
+		padding: 0;
+		transform: translateX(-50%);
+		left: 50%;
+		position: absolute;
+}
+
+	.navbar-btn {
+		margin-left: 15px;
+	}
+}
+
+input.input,.text,.input-text,
+.textarea {
+	display: block;
+	width: 100%;
+	height: $input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+	padding: $padding-base-vertical $padding-base-horizontal;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	color: $input-color;
+	background-color: $input-bg;
+	background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+	border: 1px solid $input-border;
+	border-radius: $input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
+	@include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+	@include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
+
+	// Customize the `:focus` state to imitate native WebKit styles.
+	@include form-control-focus;
+
+	// Placeholder
+	@include placeholder;
+
+	// Unstyle the caret on `<select>`s in IE10+.
+	&::-ms-expand {
+		border: 0;
+		background-color: transparent;
+	}
+}
+
+textarea {
+	height: $input-height-base;
+	line-height: $line-height-base;
+	display: block;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow:0 0 0 500px #f8f8f8 inset;
+	&:focus {
+		-webkit-box-shadow: 0 0 0 500px white inset;
+	}
+}
+
+.button-primary, #simpleCC_submit {
+		display: inline-block;
+		margin-bottom: 0; // For input.btn
+		font-weight: 500;
+		text-align: center;
+		vertical-align: middle;
+		touch-action: manipulation;
+		text-transform: uppercase;
+		cursor: pointer;
+		background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+		border: 1px solid transparent;
+		white-space: nowrap;
+		@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
+		@include user-select(none);
+		@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+
+		&.loading {
+			opacity: 0.25;
+			padding-right: 2.618em;
+
+			&:after {
+				content: "\e01c";
+				vertical-align: top;
+				-webkit-font-smoothing: antialiased;
+				font-weight: 400;
+				position: absolute;
+				top: .618em;
+				right: 1em;
+				-webkit-animation: spin 2s linear infinite;
+					-moz-animation: spin 2s linear infinite;
+					animation: spin 2s linear infinite;
+			}
+		}
+
+		&.added {
+			&:after {
+				font-family: 'WooCommerce';
+				content: "\e017";
+				margin-left: .53em;
+				vertical-align: bottom;
+			}
+		}
+
+		&:hover {
+			background-color: $brand-cta-light;
+			text-decoration: none;
+			background-image: none;
+			color: $btn-primary-color;
+		}
+
+		&.alt {
+			background-color: $brand-cta;
+			color: $btn-primary-color;
+			-webkit-font-smoothing: antialiased;
+
+			&:hover {
+				background-color: $brand-cta-light;
+				color: $btn-primary-color;
+			}
+
+			&.disabled,
+			&:disabled,
+			&:disabled[disabled],
+			&.disabled:hover,
+			&:disabled:hover,
+			&:disabled[disabled]:hover {
+				background-color: $brand-cta-light;
+				color: $btn-primary-color;
+			}
+		}
+
+		&:disabled,
+		&.disabled,
+		&:disabled[disabled] {
+			color: inherit;
+			cursor: not-allowed;
+			opacity: 0.5;
+
+			&:hover {
+				color: inherit;
+				background-color: $brand-cta-light;
+			}
+		}
+	}
+/* PRODUCTS PORTFOLIO */
+
+.block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-center {
+  text-align: center;
+}
+
+
+/* Portfolio block */
+.portfolio-block {
+  background: #fff;
+  padding-top: 30px;
+}
+
+.portfolio-block .item {
+  position: relative;
+  padding: 15px;
+  overflow: hidden;
+	border-radius: $border-radius-base;
+	margin: 15px 0 15px 0;
+}
+.portfolio-block .item > a {
+  background: rgba($brand-primary, .7);
+	border-radius: $border-radius-base;
+	padding: 15px;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+
+  color: #fff;
+}
+.portfolio-block .item:hover > a {
+  bottom: 0;
+}
+.portfolio-block .item > a:hover {
+  text-decoration: none;
+}
+.portfolio-block .item:focus > a {
+  bottom: 0;
+}
+.ie8 .portfolio-block .item > a {
+  background: $brand-primary-light;
+}
+
+.portfolio-block .item strong {
+	font: $font-size-h3 $font-family-base;
+  display: block;
+  margin-bottom: 4px;
+}
+.portfolio-block .item em {
+  font: $font-size-h4 $font-family-base;
+  display: block;
+  margin-bottom: 10px;
+}
+.portfolio-block .item b {
+  line-height: 1;
+  display: inline-block;
+
+}
+
+
+/* PRODUCT PHOTOS
+********************
+*/
+
+div.filter-options {
+    margin: 15px 0 15px 0;
+}
+figure {
+    position: relative;
+    line-height: 0;
+    width: 100%;
+    max-width: 640px;
+		margin-top: 50px;
+    margin-bottom: 15px;
+		border-radius: $border-radius-base;
+}
+figure img {
+    width: 100%;
+    height: auto;
+		border-radius: $border-radius-base;
+}
+figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 1em;
+		border-radius: $border-radius-base;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+
+figcaption:hover {
+    background-color: $brand-primary-rgba;
+}
+figcaption:hover > div {
+    color: rgba(255, 255, 255, 1);
+}
+
+figcaption:active {
+    background-color: $brand-primary-rgba;
+}
+figcaption:active > div {
+    color: rgba(255, 255, 255, 1);
+}
+
+figcaption > div {
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+@media screen and (max-width: 768px) {
+	figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 1em;
+		border-radius: $border-radius-base;
+    background-color: $brand-primary-rgba;
+		color: rgba(255,255,255,1);
+		}
+		figcaption > div {
+		    position: absolute;
+		    bottom: 0;
+		    color: rgba(255, 255, 255, 1);
+		    -webkit-transition: all 1s ease 0s;
+		    -moz-transition: all 1s ease 0s;
+		    -ms-transition: all 1s ease 0s;
+		    -o-transition: all 1s ease 0s;
+		    transition: all 1s ease 0s;
+		}
+}
+
+
+#products {
+	background-color: #fff;
+	padding-bottom: 70px;
+}
+
+
+#locations {
+	background: url('../assets/img/fabric_plaid.png') top left repeat;
+	padding-bottom: 70px;
+}
+
+.store-sign {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	border: $brand-primary solid 1px;
+	border-radius: $border-radius-base;
+}
+
+/* GOOGLE MAPS */
+
+#map {
+	margin-top: 15px;
+	width: 100%;
+	height: 400px;
+	border: $brand-primary solid 1px;
+	border-radius: $border-radius-base;
+	padding-bottom: 5px;
+}
+
+.panel {
+	border-color: $brand-primary;
+	padding-bottom: 5px;
+}
+
+.panel-primary {
+	margin-top: 15px;
+}
+
+/* SEWING CLASSES */
+
+#sewing-classes {
+	background-image: url('../assets/img/shutterstock_205327579.jpg');
+	background-size: cover;
+	position: relative;
+	display: table;
+	width: 100%;
+	color: #222;
+	padding: 40px 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+
+/* COURSE CARDS */
+
+/* entire container, keeps perspective */
+.card-container {
+	  -webkit-perspective: 800px;
+   -moz-perspective: 800px;
+     -o-perspective: 800px;
+        perspective: 800px;
+        margin-bottom: 30px;
+}
+/* flip the pane when hovered */
+.card-container:not(.manual-flip):hover .card,
+.card-container.hover.manual-flip .card{
+	-webkit-transform: rotateY( 180deg );
+-moz-transform: rotateY( 180deg );
+ -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+.card-container.static:hover .card,
+.card-container.static.hover .card {
+	-webkit-transform: none;
+-moz-transform: none;
+ -o-transform: none;
+    transform: none;
+}
+/* flip speed goes here */
+.card {
+	 -webkit-transition: -webkit-transform .5s;
+   -moz-transition: -moz-transform .5s;
+     -o-transition: -o-transform .5s;
+        transition: transform .5s;
+-webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+     -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	-webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+     -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #FFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+		-webkit-transform: rotateY( 180deg );
+   -moz-transform: rotateY( 180deg );
+     -o-transform: rotateY( 180deg );
+        transform: rotateY( 180deg );
+        z-index: 3;
+}
+
+.back .btn-simple{
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+}
+/*   ---ROTATING CARDS---      */
+
+
+.card{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: $border-radius-base;
+    color: $gray-dark;
+}
+.card-container, .front, .back {
+	width: 100%;
+	height: 420px;
+	border-radius: $border-radius-base;
+}
+.card .cover{
+    height: 168px;
+    overflow: hidden;
+    border-radius: $border-radius-base;
+}
+.card .cover img{
+    width: 100%;
+}
+.card .user{
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    margin: -55px auto 0;
+    overflow: hidden;
+    width: 120px;
+}
+.card .user img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #FFFFFF;
+    width: 100%;
+}
+
+.card .content{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    padding: 10px 20px 20px;
+}
+.card .content .main {
+    min-height: 160px;
+
+}
+.card .back .content .main {
+    height: 215px;
+		text-align: center;
+}
+.card .name {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 10px 0 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.card h5{
+    margin: 5px 0;
+    font-weight: 400;
+    line-height: 20px;
+}
+.card .profession{
+    color: #999999;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card .footer {
+    border-top: 1px solid #EEEEEE;
+    color: #999999;
+    margin: 30px 0 0;
+    padding: 10px 0 0;
+    text-align: center;
+}
+.card .footer .social-links{
+    font-size: 18px;
+}
+.card .footer .social-links a{
+    margin: 0 7px;
+}
+.card .footer .btn-simple{
+    margin-top: -6px;
+}
+.card .header {
+    padding: 15px 20px;
+    height: 90px;
+}
+.card .motto{
+    border-bottom: 1px solid #EEEEEE;
+    color: $gray-light;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* WOOCOMMERCE */
+
+/**
+ * Styling begins
+ */
+.woocommerce, .woocommerce-page {
+
+
+
+	/**
+	 * Product page
+	 */
+	div.product,
+	#content div.product {
+		div.images {
+			float: none;
+			height: auto;
+			width: 100%;
+		}
+
+
+		div.summary {
+			float: none;
+			height: auto;
+			width: 100%;
+		}
+
+		.woocommerce-tabs {
+			clear: both;
+		}
+
+		}
+		a.button, button.button, input.button, #review_form #submit {
+			background: $brand-cta;
+			color: #fff;
+			border-radius: $border-radius-base;
+		 }
+
+		 /**
+ 		 * Buttons
+ 		 */
+ 		a.button,
+ 		button.button,
+ 		input.button,
+ 		#respond input#submit {
+			display: inline-block;
+		  margin-bottom: 0; // For input.btn
+		  font-weight: 500;
+		  text-align: center;
+		  vertical-align: middle;
+		  touch-action: manipulation;
+			text-transform: uppercase;
+		  cursor: pointer;
+		  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+		  border: 1px solid transparent;
+		  white-space: nowrap;
+		  @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
+		  @include user-select(none);
+			@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+
+ 			&.loading {
+ 				opacity: 0.25;
+ 				padding-right: 2.618em;
+
+ 				&:after {
+ 					content: "\e01c";
+ 					vertical-align: top;
+ 					-webkit-font-smoothing: antialiased;
+ 					font-weight: 400;
+ 					position: absolute;
+ 					top: .618em;
+ 					right: 1em;
+ 					-webkit-animation: spin 2s linear infinite;
+ 				    -moz-animation: spin 2s linear infinite;
+ 				    animation: spin 2s linear infinite;
+ 				}
+ 			}
+
+ 			&.added {
+ 				&:after {
+ 					font-family: 'WooCommerce';
+ 					content: "\e017";
+ 					margin-left: .53em;
+ 					vertical-align: bottom;
+ 				}
+ 			}
+
+ 			&:hover {
+ 				background-color: $brand-cta-light;
+ 				text-decoration: none;
+ 				background-image: none;
+ 				color: $btn-primary-color;
+ 			}
+
+ 			&.alt {
+ 				background-color: $brand-cta;
+ 				color: $btn-primary-color;
+ 				-webkit-font-smoothing: antialiased;
+
+ 				&:hover {
+ 					background-color: $brand-cta-light;
+ 					color: $btn-primary-color;
+ 				}
+
+ 				&.disabled,
+ 				&:disabled,
+ 				&:disabled[disabled],
+ 				&.disabled:hover,
+ 				&:disabled:hover,
+ 				&:disabled[disabled]:hover {
+ 					background-color: $brand-cta-light;
+ 					color: $btn-primary-color;
+ 				}
+ 			}
+
+ 			&:disabled,
+ 			&.disabled,
+ 			&:disabled[disabled] {
+ 				color: inherit;
+ 				cursor: not-allowed;
+ 				opacity: 0.5;
+
+ 				&:hover {
+ 					color: inherit;
+ 					background-color: $brand-cta-light;
+ 				}
+ 			}
+ 		}
+
+
+
+ 		.cart .button,
+ 		.cart input.button {
+ 			float: none;
+ 		}
+
+ 		a.added_to_cart {
+ 			padding-top: .5em;
+ 			white-space: nowrap;
+ 			display: inline-block;
+ 		}
+
+		/**
+		 * Forms
+		 */
+		form {
+			.form-row {
+				padding: 3px;
+				margin: 0 0 6px;
+
+				[placeholder]:focus::-webkit-input-placeholder {
+					-webkit-transition: opacity 0.5s 0.5s ease;
+					-moz-transition: opacity 0.5s 0.5s ease;
+					transition: opacity 0.5s 0.5s ease;
+					opacity: 0;
+				}
+
+				label {
+					line-height: 2;
+				}
+
+				label.hidden {
+					visibility: hidden;
+				}
+
+				label.inline {
+					display: inline;
+				}
+
+				select {
+					cursor: pointer;
+					margin: 0;
+				}
+
+				.required {
+					color: red;
+					font-weight: 700;
+					border: 0;
+				}
+
+				.input-checkbox {
+					display: inline;
+					margin: -2px 8px 0 0;
+					text-align: center;
+					vertical-align: middle;
+				}
+
+				input.input-text,
+				textarea {
+					display: block;
+				  width: 100%;
+				  height: $input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+				  padding: $padding-base-vertical $padding-base-horizontal;
+				  font-size: $font-size-base;
+				  line-height: $line-height-base;
+				  color: $input-color;
+				  background-color: $input-bg;
+				  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+				  border: 1px solid $input-border;
+				  border-radius: $input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
+				  @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+				  @include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
+
+				  // Customize the `:focus` state to imitate native WebKit styles.
+				  @include form-control-focus;
+
+				  // Placeholder
+				  @include placeholder;
+
+				  // Unstyle the caret on `<select>`s in IE10+.
+				  &::-ms-expand {
+				    border: 0;
+				    background-color: transparent;
+					}
+				}
+
+				textarea {
+					height: $input-height-base;
+					line-height: $line-height-base;
+					display: block;
+					-moz-box-shadow: none;
+					-webkit-box-shadow: none;
+					box-shadow: none;
+				}
+
+				.select2-container {
+					width: 100%;
+					line-height: 2em;
+				}
+
+				&.woocommerce-invalid {
+					label {
+						color: $brand-warning;
+					}
+					.select2-container,
+					input.input-text,
+					select {
+						border-color: $brand-warning;
+					}
+				}
+
+				&.woocommerce-validated {
+					.select2-container,
+					input.input-text,
+					select {
+						border-color: $brand-success;
+					}
+				}
+
+				::-webkit-input-placeholder {
+					line-height: normal;
+				}
+
+				:-moz-placeholder {
+					line-height: normal;
+				}
+
+				:-ms-input-placeholder {
+					line-height: normal;
+				}
+			}
+		}
+
+		form.login,
+		form.checkout_coupon,
+		form.register {
+			border: 1px solid darken( $brand-primary, 10% );
+			padding: 20px;
+			margin: 2em 0 2em 0px;
+			text-align: left;
+			border-radius: 5px;
+		}
+
+		ul#shipping_method {
+			list-style: none outside;
+			margin: 0;
+			padding: 0;
+
+			li {
+				margin: 0;
+				padding: .25em 0 .25em 22px;
+				text-indent: -22px;
+				list-style: none outside;
+				input {
+					margin: 3px 0.5ex;
+				}
+				label {
+					display: inline;
+				}
+			}
+
+			.amount {
+				font-weight: 700;
+			}
+		}
+
+		p.woocommerce-shipping-contents {
+			margin: 0;
+		}
+
+
+}
+
+
+/*
+.learn-more-box {
+	padding: 2px 5px 2px 5px;
+	border-color: $brand-primary 1px solid;
+	color: #fff;
+	background-color: $brand-cta-light;
+	font-weight: bold;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-radius: $border-radius-base;
+}
+*/
+
+/* TRIBE EVENTS */
+
+/* Global Main Button Style */
+.tribe-events-button,
+#tribe-events .tribe-events-button {
+	display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: $btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
+  @include user-select(none);
+	@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+}
+
+.tribe-events-button.tribe-active {
+	background-color: $brand-primary;
+	color: #fff;
+}
+
+.tribe-events-button.tribe-inactive,
+.tribe-events-button:hover,
+#tribe-events .tribe-events-button:hover,
+.tribe-events-button.tribe-active:hover {
+	background-color: $brand-primary-light;
+	color: $btn-primary-color;
+	text-decoration: none;
+}
+
+/* Calendar Add Buttons */
+a.tribe-events-ical,
+a.tribe-events-gcal {
+	clear: both;
+	color: #fff;
+	float: right;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 18px;
+	margin-top: 21px;
+	padding: 0 6px;
+	text-decoration: none;
+}
+.tribe-events-gcal {
+	margin-right: 9px;
+}
+.single-tribe_events a.tribe-events-ical,
+.single-tribe_events a.tribe-events-gcal {
+	float: none;
+}
+
+.tribe-mini-calendar-event .list-date {
+	float : left;
+	overflow:hidden;
+	font-weight:bold;
+	margin: 10px 5% 10px 0;
+	padding: 3px;
+	width: 15%;
+	text-align:center;
+	display: inline;
+	background: $brand-primary-light;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+table.tribe-events-tickets .woocommerce .quantity .qty {
+    height: $input-height-base;
+		border-radius: $border-radius-base;
+}
+
+.tribe-events-venue .tribe-events-map-wrap {
+	background: #eee;
+	display: block;
+	border: 1px solid #ddd;
+	-webkit-border-radius: $border-radius-base;
+	        border-radius: $border-radius-base;
+	float: none;
+	margin: 5px;
+	padding: 5px;
+	width: 100%;
+	min-height: 300px;
+}
+
+/* --- FONTAWESOME COLORING --- */
+.fa {
+	color: $brand-primary-light;
+}
+
+/* --- BLOG STYLING --- */
+
+.post {
+	background: url('../assets/img/fabric_plaid.png') top left repeat;
+	position: relative;
+	border: solid 1px $brand-primary;
+	-webkit-border-radius: $border-radius-base;
+	-moz-border-radius: $border-radius-base;
+	border-radius: $border-radius-base;
+	margin: 0 0 40px;
+}
+
+.post-details {
+	width: 90%;
+}
+
+.post-details i.fa {
+	padding-left: 10px;
+}
+
+.post-details i.fa:first-child {
+	padding-left: 0px;
+}
+
+.post header,
+.post .post-excerpt {
+	padding: 25px;
+}
+
+.post p {
+	font-size: $font-size-large;
+	margin-left: 10px;
+}
+
+.post p .caption {
+	font-size: 14px;
+}
+
+.entry-header h3,
+.entry-header h2 {
+	padding: 0 0 15px;
+	margin: 0 0 15px;
+	border-bottom: 1px solid #555;
+}
+
+.entry-content {
+	padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+	.entry-content {
+		padding-left: 0px;
+	}
+}
+
+.moretag {
+	color: $brand-cta;
+	font-weight: bold;
+}
+
+.post-image img {
+	width: 100%;
+	height: auto;
+}
+
+#reply-title {
+	font-size: 16px;
+}
+
+.caption {
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+}
+
+/* --- LANDING PAGES --- */
+
+#hero-landing {
+	min-height: 100vh;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+/*
+#hero-landing::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $brand-primary;
+    opacity: 0.4
+}
+*/
+
+.hero-text-landing {
+		background-color: transparentize($brand-primary, .4);
+		border-radius: $border-radius-base;
+}
+
+.price-landing {
+	display: inline-block;
+	width: 70%;
+	margin: 0 2% 0 0;
+	background: $brand-primary;
+	padding: 40px 20px;
+	position: relative;
+	vertical-align: top;
+	border-radius: $border-radius-base;
+}
+
+#hero-landing article {
+  width: 100%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#hero-landing .hero-text {
+	margin-top: 20px;
+}
+
+#lp-cta {
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+  min-height: 200px;
+	margin: 0 2% 0 0;
+	padding: 40px 20px 40px;
+	position: relative;
+	vertical-align: top;
+}
+
+/* --- CONTACT FORM 7 --- */
+
+.wpcf7 {
+	border: 1px solid $brand-primary;
+	border-radius: $border-radius-base;
+}
+
+.wpcf7-form {
+	margin: 25px;
+}
+
+/* SIMPLECC STYLING */
+
+#simpleCC_fname, #simpleCC_lname, #simpleCC_email {
+	display: block;
+	width: 100%;
+	height: $input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+	padding: $padding-base-vertical $padding-base-horizontal;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	color: $input-color;
+	background-color: $input-bg;
+	background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+	border: 1px solid $input-border;
+	border-radius: $input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
+	@include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+	@include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
+
+	// Customize the `:focus` state to imitate native WebKit styles.
+	@include form-control-focus;
+
+	// Placeholder
+	@include placeholder;
+
+	// Unstyle the caret on `<select>`s in IE10+.
+	&::-ms-expand {
+		border: 0;
+		background-color: transparent;
+	}
+}
+
+textarea {
+	height: $input-height-base;
+	line-height: $line-height-base;
+	display: block;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow:0 0 0 500px #f8f8f8 inset;
+	&:focus {
+		-webkit-box-shadow: 0 0 0 500px white inset;
+	}
+}
+
+
+
+
+/* --- FOOTER --- */
+
+#wrapper-footer {
+	margin-top: 0;
+	text-align: center;
+	background-color: #f5f5f5;
+}

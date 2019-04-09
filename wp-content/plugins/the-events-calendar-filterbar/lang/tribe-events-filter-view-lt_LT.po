@@ -1,0 +1,331 @@
+# Translation of Filter Bar in Lithuanian
+# This file is distributed under the same license as the Filter Bar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-14 20:14:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: lt\n"
+"Project-Id-Version: Filter Bar\n"
+
+#: the-events-calendar-filter-view.php:173
+msgid "To begin using The Events Calendar: Filter Bar, please install the latest version of"
+msgstr ""
+
+#: the-events-calendar-filter-view.php:52
+msgid "Events Filter Bar"
+msgstr ""
+
+#: src/functions/php-min-version.php:76
+msgid "Contact your Host or your system administrator and ask to upgrade to the latest version of PHP."
+msgstr ""
+
+#: src/functions/php-min-version.php:74
+msgid "To allow better control over dates, advanced security improvements and performance gain."
+msgstr ""
+
+#: src/functions/php-min-version.php:64
+msgid "<b>%1$s</b> requires <b>PHP %2$s</b> or higher."
+msgid_plural "<b>%1$s</b> require <b>PHP %2$s</b> or higher."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/functions/php-min-version.php:52
+msgctxt "Plugin A\",\" Plugin B"
+msgid ", "
+msgstr ""
+
+#: src/functions/php-min-version.php:51
+msgctxt "Plugin A \"and\" Plugin B"
+msgid " and "
+msgstr ""
+
+#: src/Tribe/Settings.php:128
+msgid "Show on initial page load"
+msgstr ""
+
+#: src/Tribe/Settings.php:127
+msgid "Stay collapsed until visitors open it"
+msgstr ""
+
+#: src/Tribe/Settings.php:124
+msgid "Filter Bar default state"
+msgstr ""
+
+#: src/Tribe/Filter.php:628
+msgid "Multi-Select"
+msgstr "Rinktis kelis"
+
+#: src/Tribe/Filter.php:342 src/Tribe/View.php:218
+msgctxt "Featured Events active fitler display label"
+msgid "Active"
+msgstr "Aktyvūs"
+
+#: src/Tribe/View.php:425
+msgid "Featured Events"
+msgstr "Svarbiausi renginiai"
+
+#: src/Tribe/View.php:400
+msgid "Organizers"
+msgstr "Organizatoriai"
+
+#: src/Tribe/View.php:396
+msgid "Venues"
+msgstr "Vietos"
+
+#: src/Tribe/View.php:381
+msgid "Event Category"
+msgstr "Renginio kategorija"
+
+#: src/Tribe/Filters/Featured_Events.php:43
+msgid "Show featured events only"
+msgstr "Rodyti tik svarbiausius"
+
+#: src/Tribe/View.php:420
+msgid "State/Province"
+msgstr "Rajonas"
+
+#: src/Tribe/View.php:416
+msgid "City"
+msgstr "Miestas"
+
+#: src/Tribe/View.php:412
+msgid "Country"
+msgstr "Šalis"
+
+#: src/Tribe/Filters/Cost.php:101
+msgid "Other"
+msgstr "Kiti"
+
+#: src/Tribe/Filters/Cost.php:89
+msgctxt "Used as the identifier for free Events"
+msgid "Free"
+msgstr "Nemokamas"
+
+#: src/Tribe/Filters/Cost.php:75
+msgid "Used as the identifier for free Events"
+msgstr ""
+
+#: src/Tribe/Filters/Cost.php:74
+msgid "\"%s\" or empty or set to zero"
+msgstr "\"%s\" arba tuščias arba 0"
+
+#: src/Tribe/Filters/Additional_Field.php:78
+msgctxt "additional fields filter logic setting"
+msgid "Logic:"
+msgstr ""
+
+#: src/Tribe/Filters/Additional_Field.php:74
+msgctxt "additional fields filter logic setting"
+msgid "Match any"
+msgstr "Atitinka bet ką"
+
+#: src/Tribe/Filters/Additional_Field.php:68
+msgctxt "additional fields filter logic setting"
+msgid "Match all"
+msgstr "Atitinka viską"
+
+#. Author URI of the plugin/theme
+msgid "http://m.tri.be/25"
+msgstr "http://m.tri.be/25"
+
+#. Author of the plugin/theme
+msgid "Modern Tribe, Inc."
+msgstr "Modern Tribe, Inc."
+
+#. Description of the plugin/theme
+msgid "Creates an advanced filter panel on the frontend of your events list views."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "The Events Calendar: Filter Bar"
+msgstr ""
+
+#: the-events-calendar-filter-view.php:175
+#: the-events-calendar-filter-view.php:176
+msgid "The Events Calendar"
+msgstr "Renginių kalendorius"
+
+#: src/views/filter-bar/filter-view-horizontal.php:35
+#: src/views/filter-bar/filter-view-vertical.php:35
+msgid "Submit"
+msgstr ""
+
+#: src/views/filter-bar/filter-view-horizontal.php:29
+#: src/views/filter-bar/filter-view-horizontal.php:41
+#: src/views/filter-bar/filter-view-vertical.php:37
+#: src/views/filter-bar/filter-view-vertical.php:41
+msgid "Reset Filters"
+msgstr "Išvalyti"
+
+#: src/views/filter-bar/filter-view-horizontal.php:28
+#: src/views/filter-bar/filter-view-horizontal.php:40
+#: src/views/filter-bar/filter-view-vertical.php:26
+msgid "Show Filters"
+msgstr "Rodyti"
+
+#: src/views/filter-bar/filter-view-horizontal.php:27
+#: src/views/filter-bar/filter-view-horizontal.php:39
+#: src/views/filter-bar/filter-view-vertical.php:25
+#: src/views/filter-bar/filter-view-vertical.php:40
+msgid "Collapse Filters"
+msgstr "Paslėpti"
+
+#: src/views/filter-bar/filter-view-horizontal.php:27
+#: src/views/filter-bar/filter-view-horizontal.php:39
+#: src/views/filter-bar/filter-view-vertical.php:25
+msgid "Show Advanced Filters"
+msgstr "Rodyti daugiau"
+
+#: src/views/filter-bar/filter-view-horizontal.php:25
+#: src/views/filter-bar/filter-view-vertical.php:29
+msgid "Narrow Your Results"
+msgstr "Susiaurinti"
+
+#: src/admin-views/settings-field-available-filters.php:8
+msgid "Available Filters"
+msgstr "Galimi filtrai"
+
+#: src/admin-views/settings-field-active-filters.php:7
+msgid "Active Filters"
+msgstr "Aktyvūs"
+
+#: src/Tribe/View.php:408
+msgid "Time"
+msgstr "Laikas"
+
+#: src/Tribe/View.php:404
+msgid "Day"
+msgstr "Diena"
+
+#: src/Tribe/View.php:392
+msgid "Tags"
+msgstr "Žyma"
+
+#: src/Tribe/View.php:386
+msgid "Cost (%s)"
+msgstr "Kaina (%s)"
+
+#: src/Tribe/Settings.php:151
+msgid "Filter Bar"
+msgstr "Filtras"
+
+#: src/Tribe/Settings.php:118
+msgid "Horizontal"
+msgstr ""
+
+#: src/Tribe/Settings.php:117
+msgid "Vertical"
+msgstr ""
+
+#: src/Tribe/Settings.php:114
+msgid "Filters Layout"
+msgstr ""
+
+#: src/Tribe/Settings.php:102
+msgid "Expand an active filter to edit the label and choose from a subset of input types (dropdown, select, range slider, checkbox and radio)."
+msgstr ""
+
+#: src/Tribe/Settings.php:101
+msgid "The settings below allow you to enable or disable front-end event filters. Uncheck the box to hide the filter. Drag and drop active filters to re-arrange them."
+msgstr ""
+
+#: src/Tribe/Settings.php:39 src/Tribe/Settings.php:97
+msgid "Filters"
+msgstr "Filtrai"
+
+#: src/Tribe/Filters/Time_Of_Day.php:16
+msgid "Night"
+msgstr "Naktis"
+
+#: src/Tribe/Filters/Time_Of_Day.php:15
+msgid "Evening"
+msgstr "Vakaras"
+
+#: src/Tribe/Filters/Time_Of_Day.php:14
+msgid "Afternoon"
+msgstr "Popietė"
+
+#: src/Tribe/Filters/Time_Of_Day.php:13
+msgid "Morning"
+msgstr "Rytas"
+
+#: src/Tribe/Filters/Time_Of_Day.php:12
+msgid "All Day"
+msgstr "Visą dieną"
+
+#: src/Tribe/Filters/Day_Of_Week.php:18
+msgid "Saturday"
+msgstr "Šeštadienis"
+
+#: src/Tribe/Filters/Day_Of_Week.php:17
+msgid "Friday"
+msgstr "Penktadienis"
+
+#: src/Tribe/Filters/Day_Of_Week.php:16
+msgid "Thursday"
+msgstr "Ketvirtadienis"
+
+#: src/Tribe/Filters/Day_Of_Week.php:15
+msgid "Wednesday"
+msgstr "Trečiadienis"
+
+#: src/Tribe/Filters/Day_Of_Week.php:14
+msgid "Tuesday"
+msgstr "Antradienis"
+
+#: src/Tribe/Filters/Day_Of_Week.php:13
+msgid "Monday"
+msgstr "Pirmadienis"
+
+#: src/Tribe/Filters/Day_Of_Week.php:12
+msgid "Sunday"
+msgstr "Sekmadienis"
+
+#: src/Tribe/Filters/Cost.php:105
+msgid "Free"
+msgstr "Nemokamas"
+
+#: src/Tribe/Filters/Cost.php:81
+msgid "Only when set to zero"
+msgstr "Tik kai nustatyta 0"
+
+#: src/Tribe/Filters/Cost.php:69
+msgid "Events are considered free when cost field is: %s %s"
+msgstr ""
+
+#: src/Tribe/Filters/Cost.php:59
+msgid "Range Slider"
+msgstr "Reikšmių skalė"
+
+#: src/Tribe/Filters/Cost.php:55
+msgid "Type: %s %s"
+msgstr "Tipas: %s %s"
+
+#: src/Tribe/Filter.php:623 src/Tribe/Filters/Cost.php:64
+msgid "Checkboxes"
+msgstr "Varnelės"
+
+#: src/Tribe/Filter.php:618
+msgid "Dropdown"
+msgstr ""
+
+#: src/Tribe/Filter.php:614
+msgid "Type: %s %s %s"
+msgstr ""
+
+#: src/Tribe/Filter.php:596
+msgid "Title: %s"
+msgstr "Pavadinimas: %s"
+
+#: src/Tribe/Filter.php:324
+msgid "Select an Item"
+msgstr "Pasirinkti"
+
+#: src/Tribe/Filter.php:293
+msgid "Select"
+msgstr "Pažymėti"

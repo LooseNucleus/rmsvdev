@@ -1,0 +1,1138 @@
+# Copyright (C) 2018 Event Calendar Newsletter
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Calendar Newsletter Pro 2.17\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/event-calendar-newsletter-pro\n"
+"POT-Creation-Date: 2018-12-05 00:16:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Poedit: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:164
+#. translators: time range (%1$s) and description (%2$s) for an event
+msgid "%1$s <span>(%2$s)</span>"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:416
+#. translators: %1$s is interval, %2$s is recurrence end date
+msgid "Every week until %2$s"
+msgid_plural "Every %1$s weeks until %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:430
+#. translators: %1$s is interval
+msgid "Every week"
+msgid_plural "Every %1$s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:444
+#. translators: %1$s is interval
+msgid "Every Week"
+msgid_plural "Every %1$s Weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:465
+#. translators: %1$s is interval, %2$s is week of month, %3$s is day of week,
+#. %4$s is recurrence end date
+msgid "Every month on the %2$s %3$s until %4$s"
+msgid_plural "Every %1$s months on the %2$s %3$s until %4$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:484
+#. translators: %1$s is interval, %2$s is week of month, %3$s is day of week
+msgid "Every month on the %2$s %3$s"
+msgid_plural "Every %1$s months on the %2$s %3$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:505
+#. translators: %1$s is interval, %2$s is recurrence end date
+msgid "Every month until %2$s"
+msgid_plural "Every %1$s months until %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:522
+#. translators: %1$s is interval
+msgid "Every month"
+msgid_plural "Every %1$s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:537
+#. translators: %1$s is interval
+msgid "Every Month"
+msgid_plural "Every %1$s Months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:555
+#. translators: %1$s is recurrence end date
+msgid "Every year until %1$s"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:560
+msgid "Every year"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:564
+msgid "Every Year"
+msgstr ""
+
+#: core/includes/admin/main.php:6
+msgid "No supported event calendar plugins available."
+msgstr ""
+
+#: core/includes/admin/main.php:8
+msgid ""
+"Event Calendar Newsletter takes the details of your upcoming events to put "
+"inside your newsletter from one of the supported WordPress event calendar "
+"plugins."
+msgstr ""
+
+#: core/includes/admin/main.php:11
+msgid "Install one of the supported calendars, which include:"
+msgstr ""
+
+#: core/includes/admin/main.php:17
+msgid ""
+"Note that certain calendars like %sEvent Espresso%s are only supported %sin "
+"the PRO version of Event Calendar Newsletter%s"
+msgstr ""
+
+#: core/includes/admin/main.php:19
+msgid "Have another events calendar you'd like supported?  %sLet us know%s!"
+msgstr ""
+
+#: core/includes/admin/main.php:21
+msgid ""
+"Still need help?  View %sfull instructions for setting up a supported "
+"calendar%s"
+msgstr ""
+
+#: core/includes/admin/main.php:23
+msgid "Preview of Event Calendar Newsletter"
+msgstr ""
+
+#: core/includes/admin/main.php:34
+msgid "Event Calendar:"
+msgstr ""
+
+#: core/includes/admin/main.php:42
+msgid ""
+"Can't find the calendar with your events that you'd like to use?  %sLet us "
+"know%s!"
+msgstr ""
+
+#: core/includes/admin/main.php:47
+msgid "Future Events to Use:"
+msgstr ""
+
+#: core/includes/admin/main.php:52 filters/offset_date.php:15
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/admin/main.php:55 filters/offset_date.php:18
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/admin/main.php:77
+msgid "Group events:"
+msgstr ""
+
+#: core/includes/admin/main.php:81
+msgid "None (Show events in order)"
+msgstr ""
+
+#: core/includes/admin/main.php:87
+msgid ""
+"If you have lots of events, you can group them together by day or month "
+"with a header for each group"
+msgstr ""
+
+#: core/includes/admin/main.php:89
+msgid "with the %sPro version%s"
+msgstr ""
+
+#: core/includes/admin/main.php:96
+msgid "Format/Design:"
+msgstr ""
+
+#: core/includes/admin/main.php:116
+msgid "Insert"
+msgstr ""
+
+#: core/includes/admin/main.php:130
+msgid "Generate Newsletter Formatted Events"
+msgstr ""
+
+#: core/includes/admin/main.php:138
+msgid ""
+"Copy and paste the result into your MailChimp, ActiveCampaign, MailPoet or "
+"other newsletter sending service.  You will likely want to use the "
+"\"Results (HTML)\" version. %sView a Quick Demo%s"
+msgstr ""
+
+#: core/includes/admin/main.php:141
+msgid "Result"
+msgstr ""
+
+#: core/includes/admin/main.php:142
+msgid "Result (HTML)"
+msgstr ""
+
+#: core/includes/admin/main.php:149
+msgid "Select All Text"
+msgstr ""
+
+#: core/includes/admin/main.php:160
+msgid "Want more control over what events are displayed?"
+msgstr ""
+
+#: core/includes/admin/main.php:161
+msgid "Check out %sEvent Calendar Newsletter Pro%s:"
+msgstr ""
+
+#: core/includes/admin/main.php:162
+msgid "Additional Filter Options"
+msgstr ""
+
+#: core/includes/admin/main.php:163
+msgid ""
+"Filter by one or more categories, tags, and things like Featured Events "
+"depending on your calendar"
+msgstr ""
+
+#: core/includes/admin/main.php:164
+msgid "Group Events"
+msgstr ""
+
+#: core/includes/admin/main.php:165
+msgid ""
+"Group events by day or month, making it easier for users to see the events "
+"they are interested in"
+msgstr ""
+
+#: core/includes/admin/main.php:166
+msgid "Custom date range"
+msgstr ""
+
+#: core/includes/admin/main.php:167
+msgid ""
+"Choose events in a specific range, or even starting a certain time in the "
+"future"
+msgstr ""
+
+#: core/includes/admin/main.php:168
+msgid "Automate sending"
+msgstr ""
+
+#: core/includes/admin/main.php:169
+msgid ""
+"Automatically include events in your MailChimp, MailPoet, Active Campaign "
+"and several other newsletter sending tools!"
+msgstr ""
+
+#: core/includes/admin/main.php:170
+msgid "%sLearn More About Event Calendar Newsletter Pro%s"
+msgstr ""
+
+#: core/includes/admin/main.php:173
+msgid "Get 20% Off!"
+msgstr ""
+
+#: core/includes/admin/main.php:174
+msgid ""
+"Just enter your name and email and we'll send you a coupon for 20% off your "
+"upgrade to the Pro version"
+msgstr ""
+
+#: core/includes/admin/main.php:183
+msgid "Email"
+msgstr ""
+
+#: core/includes/admin/main.php:186
+msgid "First name"
+msgstr ""
+
+#: core/includes/admin/main.php:195
+msgid "Send me the coupon"
+msgstr ""
+
+#: core/includes/admin/main.php:201
+msgid ""
+"We promise not to use your email for anything else and you can unsubscribe "
+"with 1-click anytime."
+msgstr ""
+
+#: core/includes/admin/main.php:206
+msgid ""
+"<strong>Like this plugin?</strong><br>We'd love if you could show your "
+"support by leaving a %s&#9733;&#9733;&#9733;&#9733;&#9733; 5 star review on "
+"WordPress.org%s!"
+msgstr ""
+
+#: core/includes/admin/settings.php:2
+msgid "Event Calendar Newsletter Settings"
+msgstr ""
+
+#: core/includes/admin/settings.php:8
+msgid "Image Size Used"
+msgstr ""
+
+#: core/includes/admin/settings.php:15
+msgid ""
+"If your images are not showing in the correct size, try another or you may "
+"need to %sregenerate your thumbnails%s"
+msgstr ""
+
+#: core/includes/admin/settings.php:19
+msgid "Additionally Allowed User Roles"
+msgstr ""
+
+#: core/includes/ecnadmin.class.php:72 filters/saved_templates.php:330
+msgid "Save as Template"
+msgstr ""
+
+#: core/includes/ecnadmin.class.php:75
+msgid ""
+"This pro-only feature allows you to automatically add your events into "
+"newsletters with MailChimp, Active Campaign and more.  You can also save "
+"and quickly re-generate these results with Saved Templates."
+msgstr ""
+
+#: core/includes/ecnadmin.class.php:76
+msgid "Get Event Calendar Newsletter Pro"
+msgstr ""
+
+#: core/includes/ecnadmin.class.php:113
+msgid "Invalid options array"
+msgstr ""
+
+#: core/includes/ecnadmin.class.php:126
+msgid ""
+"<h2>{title}</h2>\n"
+"{if_event_image}<p>{event_image}</p>{/if_event_image}\n"
+"<p>{start_date} @ {start_time}{if_end_time} to "
+"{end_time}{/if_end_time}{if_location_name} at "
+"{location_name}{/if_location_name}</p>\n"
+"<p>{description}</p>\n"
+"<p>{link}</p>"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:143
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/ecncalendarevent.class.php:147
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/ecncalendarevent.class.php:151
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/ecncalendarevent.class.php:155
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/ecncalendarevent.class.php:160 filters/saved_templates.php:334
+#: templates/admin/saved_templates.php:10
+msgid "Title"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:161
+msgid "Subtitle"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:162
+msgid "Description"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:163
+msgid "Start Date"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:164
+msgid "Start Time"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:165
+msgid "End Date"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:166
+msgid "End Time"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:167
+msgid "No End Date Flag"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:168
+msgid "Location Name"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:169
+msgid "Location Address"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:170
+msgid "Location City"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:171
+msgid "Location State"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:172
+msgid "Location Zip/Postal"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:173
+msgid "Location Country"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:174
+msgid "Location Website"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:175
+msgid "Location Phone"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:176
+msgid "Contact Name"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:177
+msgid "Contact Info"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:178
+msgid "Contact Phone"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:179
+msgid "Contact Website"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:180
+msgid "Contact Email"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:181
+msgid "Organizer Name"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:182
+msgid "Organizer Email"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:183
+msgid "Organizer Website"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:184
+msgid "Organizer Phone"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:185
+msgid "Event Cost"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:186
+msgid "Event/Ticket Website"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:187
+msgid "Excerpt"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:188
+msgid "Event Image"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:189
+msgid "Event Image (URL only)"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:190
+msgid "All Day"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:191
+msgid "Event Link"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:192
+msgid "Event Link (URL only)"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:193
+msgid "iCal Link (URL only)"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:194
+msgid "Google Calendar Link (URL only)"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:195
+msgid "Recurring Description (if recurring)"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:196
+msgid "Categories"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:197
+msgid "Category Links"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:198
+msgid "Tags"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:199
+msgid "Tag Links"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:200
+msgid "Colour"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:201
+msgid "Featured"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:228
+msgid "Invalid date"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:658
+#: core/tests/ECNCalendarEventTest.php:16
+msgid "View all events in %s"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:699
+msgid "All day"
+msgstr ""
+
+#: core/includes/ecncalendarevent.class.php:713
+msgid "Occurs every %s %s"
+msgid_plural "Occurs every %s %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/includes/ecncalendarevent.class.php:719
+msgid "More information"
+msgstr ""
+
+#: core/includes/ecncalendarfeedai1ec.class.php:105
+msgid "FREE"
+msgstr ""
+
+#: core/includes/ecncalendarfeedfactory.class.php:18
+msgid "Invalid identifier %s, plugin deactivated?"
+msgstr ""
+
+#: core/includes/ecnsettings.class.php:16
+msgid "Settings"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:43
+#: core/tracking/class-example-settings.php:52
+msgid "Example Settings"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:58
+msgid "Text field:"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:65
+msgid "Checkbox"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:72
+msgid "Select"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:79
+msgid "Opt out"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:97
+msgid "Default setting"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:128
+msgid ""
+"You previously opted in to sending tracking details. You can change that "
+"setting here."
+msgstr ""
+
+#: core/tracking/class-example-settings.php:140
+msgid "Option 1"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:141
+msgid "Option 2"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:142
+msgid "Option 3"
+msgstr ""
+
+#: core/tracking/class-example-settings.php:148
+msgid "These settings are for example only."
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:145
+msgid "Once Weekly"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:149
+msgid "Once Monthly"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:313
+msgid ""
+"We can't detect any product information. This is most probably because you "
+"have not included the code snippet."
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:806
+msgid ""
+"Thank you for installing our %1$s. We would like to track its usage on your "
+"site. We don't record any sensitive data, only information regarding the "
+"WordPress environment and %1$s settings, which we will use to help us make "
+"improvements to the %1$s. Tracking is completely optional."
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:812
+msgid ""
+"Thank you for installing our %1$s. We'd like your permission to track its "
+"usage on your site and subscribe you to our newsletter. We won't record any "
+"sensitive data, only information regarding the WordPress environment and "
+"%1$s settings, which we will use to help us make improvements to the %1$s. "
+"Tracking is completely optional."
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:823
+msgid "Allow"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:824
+msgid "Do Not Allow"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:861
+msgid ""
+"Thank you for opting in to tracking. Would you like to receive occasional "
+"news about this %s, including details of new features and special offers?"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:870
+msgid "Yes Please"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:871
+msgid "No Thank You"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:902
+msgid "Sorry to see you go"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:903
+msgid ""
+"Before you deactivate the plugin, would you quickly give us your reason for "
+"doing so?"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:905
+msgid "Set up is too difficult"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:906
+msgid "Lack of documentation"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:907
+msgid "Not the features I wanted"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:908
+msgid "Found a better plugin"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:909
+msgid "Installed by mistake"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:910
+msgid "Only required temporarily"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:911
+msgid "Didn't work"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:913
+msgid "Details (optional)"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:952
+msgid "Submitting form"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:1012
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: core/tracking/class-plugin-usage-tracker.php:1012
+msgid "Just Deactivate"
+msgstr ""
+
+#: ecnprofeed.php:53 feeds/cct-cloud.php:55
+msgid "Filter by Categories:"
+msgstr ""
+
+#: ecnprofeed.php:55 feeds/cct-cloud.php:57
+msgid "Leave categories unchecked to fetch all events"
+msgstr ""
+
+#: ecnprofeed.php:137
+msgid "Filter by Tags:"
+msgstr ""
+
+#: ecnprofeed.php:139
+msgid "Leave tags unchecked to fetch all events"
+msgstr ""
+
+#: edd/EDD_SL_Plugin_Updater.php:201
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: edd/EDD_SL_Plugin_Updater.php:209
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: edd/EDD_SL_Plugin_Updater.php:399
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: edd/EDD_SL_Plugin_Updater.php:399
+msgid "Error"
+msgstr ""
+
+#: edd/edd.php:37
+msgid ""
+"Event Calendar Newsletter needs to be activated. %sActivate Now%s or %sGet "
+"a License%s"
+msgstr ""
+
+#: edd/edd.php:61
+msgid "License"
+msgstr ""
+
+#: edd/edd.php:74
+msgid "Plugin License Options"
+msgstr ""
+
+#: edd/edd.php:81
+msgid "License Key"
+msgstr ""
+
+#: edd/edd.php:85
+msgid "Enter your license key"
+msgstr ""
+
+#: edd/edd.php:90 edd/edd.php:99
+msgid "Activate License"
+msgstr ""
+
+#: edd/edd.php:94
+msgid "active"
+msgstr ""
+
+#: edd/edd.php:96
+msgid "Deactivate License"
+msgstr ""
+
+#: edd/edd.php:156 edd/edd.php:203 edd/edd.php:266
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: edd/edd.php:170
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: edd/edd.php:177
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: edd/edd.php:182
+msgid "Invalid license."
+msgstr ""
+
+#: edd/edd.php:188
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: edd/edd.php:193
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: edd/edd.php:198
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: event-calendar-newsletter-pro.php:96
+msgid "Saved event calendar newsletters"
+msgstr ""
+
+#: event-calendar-newsletter-pro.php:159
+msgid ""
+"You need to deactivate and delete the old Event Calendar Newsletter plugin "
+"on the %splugins page%s"
+msgstr ""
+
+#: feeds/all-in-one-event-calendar.php:35
+msgid "Recurring Events:"
+msgstr ""
+
+#: feeds/all-in-one-event-calendar.php:38
+msgid "Show only first time a recurring event happens"
+msgstr ""
+
+#: feeds/calendarizeit.php:25 feeds/google-calendar-events.php:55
+msgid "Filter by Calendars:"
+msgstr ""
+
+#: feeds/calendarizeit.php:27 feeds/google-calendar-events.php:57
+msgid "Leave calendars unchecked to fetch all events"
+msgstr ""
+
+#: feeds/event-espresso.php:29
+msgid "Multiple Dates for an Event:"
+msgstr ""
+
+#: feeds/event-espresso.php:32
+msgid "Show only first datetime if event has multiple datetimes"
+msgstr ""
+
+#: feeds/eventon.php:124
+msgid "Filter by %s:"
+msgstr ""
+
+#: feeds/eventon.php:126
+msgid "Leave unchecked to not filter by %s"
+msgstr ""
+
+#: feeds/eventum.php:86
+msgid "Filter by State/Zone:"
+msgstr ""
+
+#: feeds/eventum.php:88
+msgid "Leave states unchecked to fetch all events"
+msgstr ""
+
+#: feeds/eventum.php:155
+msgid "Filter by City:"
+msgstr ""
+
+#: feeds/eventum.php:157
+msgid "Leave cities unchecked to fetch all events"
+msgstr ""
+
+#: feeds/the-events-calendar.php:37
+msgid "Filter by Venues:"
+msgstr ""
+
+#: feeds/the-events-calendar.php:39
+msgid "Leave venues unchecked to fetch all events"
+msgstr ""
+
+#: feeds/the-events-calendar.php:89
+msgid "Featured Events Only:"
+msgstr ""
+
+#: feeds/the-events-calendar.php:92
+msgid "Show only events marked as \"featured\""
+msgstr ""
+
+#: filters/future_events.php:6 filters/offset_date.php:12
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: filters/header_footer_text.php:5
+msgid "Header Text:"
+msgstr ""
+
+#: filters/header_footer_text.php:8
+msgid "Optional.  Header text will only appear if there is at least one event."
+msgstr ""
+
+#: filters/header_footer_text.php:20
+msgid "Footer Text:"
+msgstr ""
+
+#: filters/header_footer_text.php:23
+msgid "Optional. Footer text will only appear if there is at least one event."
+msgstr ""
+
+#: filters/offset_date.php:6
+msgid "Start Events From:"
+msgstr ""
+
+#: filters/offset_date.php:9
+msgid "Today"
+msgstr ""
+
+#: filters/offset_date.php:21
+msgid "Monday"
+msgstr ""
+
+#: filters/offset_date.php:22
+msgid "Tuesday"
+msgstr ""
+
+#: filters/offset_date.php:23
+msgid "Wednesday"
+msgstr ""
+
+#: filters/offset_date.php:24
+msgid "Thursday"
+msgstr ""
+
+#: filters/offset_date.php:25
+msgid "Friday"
+msgstr ""
+
+#: filters/offset_date.php:26
+msgid "Saturday"
+msgstr ""
+
+#: filters/offset_date.php:27
+msgid "Sunday"
+msgstr ""
+
+#: filters/offset_date.php:28
+msgid "Next Monday"
+msgstr ""
+
+#: filters/offset_date.php:29
+msgid "Next Tuesday"
+msgstr ""
+
+#: filters/offset_date.php:30
+msgid "Next Wednesday"
+msgstr ""
+
+#: filters/offset_date.php:31
+msgid "Next Thursday"
+msgstr ""
+
+#: filters/offset_date.php:32
+msgid "Next Friday"
+msgstr ""
+
+#: filters/offset_date.php:33
+msgid "Next Saturday"
+msgstr ""
+
+#: filters/offset_date.php:34
+msgid "Next Sunday"
+msgstr ""
+
+#: filters/saved_templates.php:174
+msgid "Save Template"
+msgstr ""
+
+#: filters/saved_templates.php:187 templates/admin/saved_templates.php:2
+msgid "Add New"
+msgstr ""
+
+#: filters/saved_templates.php:214
+msgid "Saved Templates"
+msgstr ""
+
+#: filters/saved_templates.php:235
+msgid "Cache cleared"
+msgstr ""
+
+#: filters/saved_templates.php:259
+msgid "Saved!"
+msgstr ""
+
+#: filters/saved_templates.php:289
+msgid "Unable to save template"
+msgstr ""
+
+#: filters/saved_templates.php:293
+msgid "Saved successfully!  %sView saved templates%s"
+msgstr ""
+
+#: filters/saved_templates.php:333
+msgid ""
+"Allows you to automatically add events into MailChimp and quickly "
+"re-generate the results from the Saved Templates screen."
+msgstr ""
+
+#: filters/saved_templates.php:336
+msgid "Save"
+msgstr ""
+
+#: output_formats/table.php:4
+msgid "Single Row With Button"
+msgstr ""
+
+#: templates/admin/saved_templates.php:2
+msgid "Saved Event Calendar Templates"
+msgstr ""
+
+#: templates/admin/saved_templates.php:13
+msgid "Feed URL"
+msgstr ""
+
+#: templates/admin/saved_templates.php:16
+msgid "MailChimp Merge Tags"
+msgstr ""
+
+#: templates/admin/saved_templates.php:20
+msgid "MailPoet Shortcode"
+msgstr ""
+
+#: templates/admin/saved_templates.php:25
+msgid "Newsletter Tag"
+msgstr ""
+
+#: templates/admin/saved_templates.php:29
+msgid "Feed Event Date"
+msgstr ""
+
+#: templates/admin/saved_templates.php:32
+msgid "Published"
+msgstr ""
+
+#: templates/admin/saved_templates.php:41
+#: templates/admin/saved_templates.php:43
+msgid "View"
+msgstr ""
+
+#: templates/admin/saved_templates.php:44
+msgid "Clear Event Cache"
+msgstr ""
+
+#: templates/admin/saved_templates.php:45
+msgid "Move this item to the Trash"
+msgstr ""
+
+#: templates/admin/saved_templates.php:45
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/settings.php:2
+msgid "Group By Day Format"
+msgstr ""
+
+#: templates/admin/settings.php:5
+msgid ""
+"Leave blank for default date format. %sDocumentation on date and time "
+"formatting%s"
+msgstr ""
+
+#: templates/admin/settings.php:9
+msgid "Group By Month Format"
+msgstr ""
+
+#: templates/admin/settings.php:12
+msgid "Leave blank for month name. %sDocumentation on date and time formatting%s"
+msgstr ""
+
+#: templates/admin/settings.php:16
+msgid "Group By Tag Format"
+msgstr ""
+
+#: templates/admin/settings.php:26
+msgid "Publication Date in Feed"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Easy put events from your calendar inside of your newsletter. Spend less "
+"time promoting your events!"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:253
+#. translators: date range
+msgctxt "dates"
+msgid "%1$s &ndash; %2$s"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:281
+#. translators: time range
+msgctxt "times"
+msgid "%1$s &ndash; %2$s"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:395
+msgctxt "week of month"
+msgid "first"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:396
+msgctxt "week of month"
+msgid "second"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:397
+msgctxt "week of month"
+msgid "third"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:398
+msgctxt "week of month"
+msgid "fourth"
+msgstr ""
+
+#: calendars/ecncalendarfeedchurchcontent.class.php:399
+msgctxt "week of month"
+msgid "last"
+msgstr ""
+
+#: core/includes/admin/main.php:2
+msgctxt "Settings title"
+msgid "Event Calendar Newsletter"
+msgstr ""

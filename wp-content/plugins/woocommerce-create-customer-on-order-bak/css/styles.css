@@ -1,0 +1,52 @@
+
+.create_user .toggle-create-user { display: none; margin-bottom: 8px; padding: 26px 18px 4px; border-radius: 0px; background: #FDFDFD; box-sizing: border-box; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.023); border: 1px solid rgba(0, 0, 0, 0.1); }
+.edit_address { position: relative; }
+.sac-order-save-actions{ padding: 9px 0 6px; display: none; text-align: right; }
+.save-address-to-user { font-weight: normal; color: #777; text-align: right; }
+.save-billing-address {}
+.save-shipping-address {}
+
+.save-address-to-user input { margin: -2px 0 0 0; }
+
+.save-shipping-address-check,
+.save-billing-address-check { margin: 0 0 0 6px; }
+
+.create_user p { margin-top: -5px; }
+.create_user p { margin-top: -5px; }
+#order_data h4 { position: relative; }
+.button.create_user_form { width: 100%; }
+
+.user-capability-restricted{ color: #BBB; font-style: italic; }
+.button.submit_user_form_cancel { margin-top: 1em; margin-bottom: .6em; }
+.button.submit_user_form { float: right; margin-top: 1em; margin-bottom: .6em; }
+
+.button .create_user_icon { width: 9px; display: inline-block; background: url(../images/create-user-button-icon.png) 50% 50% no-repeat; margin: 0 0 0 3px; }
+
+.required-field { color: red; }
+.create_user input[type=checkbox] { width: auto !important; }
+
+#order_data .order_data_column .form-field .create-customer-checkbox-row { margin: 1.2em 0; }
+#order_data .order_data_column .form-field .create-customer-checkbox-row label { display: inline-block; padding: 0; margin: 0 0 0 0px; }
+
+
+
+
+/* ----- SETTINGS PAGE ----- */
+.cxccoo-wrap-settings{ max-width: 950px; padding: 30px 15px 30px 0; }
+.cxccoo-wrap-settings > p {color: #6D6D6D;font-style: italic;font-size: 15px;margin-top: 0;}
+
+.cxccoo-wrap-settings .cxccoo-back { color: #0074AA; font-size: 13px; float: left;margin: 0 15px 0 0;background: #E0E0E0; text-decoration: none; border-radius: 2px; padding: 4px 9px 3px 6px; transition: .3s; line-height: 19px;}
+.cxccoo-wrap-settings .cxccoo-back .dashicons { margin: 0 0 -6px; bottom: 2px; font-size: 18px; transition: .3s !important; position: relative; line-height: 22px; max-width: 10px; display: inline-block; left: -5px; }
+
+.cxccoo-wrap-settings .cxccoo-back:hover { background: #D2D2D2; color: #007DB7; }
+.cxccoo-wrap-settings p.submit { margin: 0; padding: 5px 0 15px; }
+
+.cxccoo-wrap-settings h2 { font-size: 23px !important;padding: 0 15px 1 0 !important; line-height: 27px !important; color: #464646; clear: none !important; margin: 0;}
+.cxccoo-wrap-settings h2 .dashicons { line-height:inherit; font-size: 20px; position: relative; bottom: -2px; margin: 0 3px; color: #989898; }
+
+.cxccoo-wrap-settings h3 {padding: 25px 0 12px 0;margin: 25px 0 0;border-top: 1px solid rgba(0, 0, 0, 0.1);/* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */font-size: 16px;font-style: normal;}
+.cxccoo-wrap-settings table.form-table .description,
+.cxccoo-wrap-settings table.form-table td.forminp-textarea p { display: block; margin-top: 6px; margin-bottom: 6px; color: #6D6D6D; font-style: italic; font-size: 14px; }
+.cxccoo-wrap-settings table.form-table .forminp-checkbox .description{ margin-top: 0; }
+.cxccoo-wrap-settings table.form-table td.forminp-textarea p { margin-bottom: 12px; }
+.cxccoo-wrap-settings table.form-table td.forminp-textarea textarea { width: 100%; }

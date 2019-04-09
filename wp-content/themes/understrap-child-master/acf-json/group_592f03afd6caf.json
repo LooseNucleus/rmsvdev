@@ -1,0 +1,48 @@
+{
+    "key": "group_592f03afd6caf",
+    "title": "Product Images",
+    "fields": [
+        {
+            "key": "field_56e9e2166a50b",
+            "label": "Product Images",
+            "name": "product_images",
+            "type": "image_crop",
+            "instructions": "We're going to have very specific product shot specifications to enforce uniformity and a nice look and feel.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "crop_type": "hard",
+            "target_size": "custom",
+            "width": 640,
+            "height": 480,
+            "preview_size": "medium",
+            "force_crop": "yes",
+            "save_in_media_library": "yes",
+            "retina_mode": "no",
+            "save_format": "id",
+            "library": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "5"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1534505734
+}

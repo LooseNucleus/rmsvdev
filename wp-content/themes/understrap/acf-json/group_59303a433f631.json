@@ -1,0 +1,83 @@
+{
+    "key": "group_59303a433f631",
+    "title": "Home Page Content",
+    "fields": [
+        {
+            "key": "field_59303aa1cceea",
+            "label": "Home Page Content",
+            "name": "home_page_content",
+            "type": "repeater",
+            "instructions": "Please put in copy for the home page.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 2,
+            "max": 2,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_59303ad2cceeb",
+                    "label": "Headline",
+                    "name": "headline",
+                    "type": "text",
+                    "instructions": "Column Headline",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Sewing Fun Starts Here",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59303b01cceec",
+                    "label": "Text and Links",
+                    "name": "text_and_links",
+                    "type": "wysiwyg",
+                    "instructions": "Input the column text",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/page-home.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1533314883
+}

@@ -1,0 +1,45 @@
+{
+    "key": "group_592f03af655ad",
+    "title": "Carousel Position",
+    "fields": [
+        {
+            "key": "field_581b7ffe930eb",
+            "label": "Carousel Position",
+            "name": "carousel_position",
+            "type": "number",
+            "instructions": "Choose the number that corresponds to the brand for brand pages:\r\n0 = Bernina\r\n1 = Brother\r\n2 = Pfaff",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": 20,
+            "step": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/page-carouselbrand.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1533314745
+}

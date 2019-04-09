@@ -1,0 +1,43 @@
+{
+    "key": "group_592ddd09568f7",
+    "title": "Venue CSS ID",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "tribe_venue"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "fields": [
+        {
+            "key": "field_592efd64a1f14",
+            "label": "Venue CSS ID",
+            "name": "venue_css_id",
+            "type": "text",
+            "instructions": "Enter a single word for the ID of the store. Rancho Santa Margarita become just Rancho",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "modified": 1534119284
+}
