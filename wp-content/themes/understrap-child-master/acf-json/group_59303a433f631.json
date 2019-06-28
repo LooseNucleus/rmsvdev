@@ -79,5 +79,7 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1533314883
+    "show_in_graphql": 1,
+    "graphql_field_name": "homePageContent",
+    "modified": 1557390049
 }

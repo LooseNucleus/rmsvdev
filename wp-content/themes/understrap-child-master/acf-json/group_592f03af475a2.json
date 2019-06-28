@@ -44,5 +44,7 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1552068065
+    "show_in_graphql": 1,
+    "graphql_field_name": "blogImage",
+    "modified": 1557390110
 }

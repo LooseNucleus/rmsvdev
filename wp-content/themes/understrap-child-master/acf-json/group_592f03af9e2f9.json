@@ -1,0 +1,134 @@
+{
+    "key": "group_592f03af9e2f9",
+    "title": "Landing Page Content",
+    "fields": [
+        {
+            "key": "field_57169af7b4a92",
+            "label": "LP Headline",
+            "name": "lp_headline",
+            "type": "text",
+            "instructions": "Enter a short headline similar to what's used in the Adwords campaigns.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Replace this Headline",
+            "placeholder": "Replace this Headline",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": 100
+        },
+        {
+            "key": "field_57169b5bb4a93",
+            "label": "LP Subheadline",
+            "name": "lp_subheadline",
+            "type": "text",
+            "instructions": "Enter some secondary text to get the user seeing the benefit of using RMSV for this.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "replace this subheadline",
+            "placeholder": "replace this subheadline",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": 150
+        },
+        {
+            "key": "field_57169bbbb4a94",
+            "label": "Button CTA",
+            "name": "button_cta",
+            "type": "text",
+            "instructions": "This text goes on the button to get people to click it.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Get Coupons Now",
+            "placeholder": "Get Coupons Now",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5755dba76ac24",
+            "label": "Form Shortcode",
+            "name": "form_shortcode",
+            "type": "text",
+            "instructions": "Copy the shortcode from the Contact Form you made. For example: \r\n[contact-form-7 id=\"2990\" title=\"Sewing Machine Repair Optin\"]",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59cbe58d18f22",
+            "label": "LP Conditions",
+            "name": "lp_conditions",
+            "type": "text",
+            "instructions": "include any conditions of the offer",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/page-landing.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/page-store-landing.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "show_in_graphql": 1,
+    "graphql_field_name": "landingPageContent",
+    "modified": 1557122156
+}
